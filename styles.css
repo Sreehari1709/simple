@@ -1,0 +1,16 @@
+.head {text-align:center;
+  color:white;
+  font-family: 'Dancing Script', cursive;}
+.headbg{background-color: red;
+ border-radius:25px;}
+#bg{height: 100%;
+  width: 100%;
+
+  position: absolute;
+  z-index:-1;
+  background-image:url('back/images/bgimage1.jpg')
+  clip-path: polygon(84% 0%, 65% 0%, 26% 0%, 0% 0%, 0% 27%, 0% 75%, 0% 100%, 9% 9%, 50% 16%, 90% 8%, 100% 100%, 100% 76%, 100% 45%, 100% 0%);
+}
+.sidebar{position: absolute;
+  left:0;
+width: 50%;}
