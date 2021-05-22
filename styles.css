@@ -1,16 +1,18 @@
 .head {text-align:center;
   color:white;
   font-family: 'Dancing Script', cursive;}
-.headbg{background-color: red;
+.headbg{background-color:#1597bb;
  border-radius:25px;}
 #bg{height: 100%;
   width: 100%;
+  clip-path: polygon(100% 0, 100% 100%,90% 10%, 50% 80%, 10% 10%, 0 100%, 0 0);
+  background-color: rgb(30,181,181);
 
   position: absolute;
   z-index:-1;
-  background-image:url('back/images/bgimage1.jpg')
-  clip-path: polygon(84% 0%, 65% 0%, 26% 0%, 0% 0%, 0% 27%, 0% 75%, 0% 100%, 9% 9%, 50% 16%, 90% 8%, 100% 100%, 100% 76%, 100% 45%, 100% 0%);
+  width: 100%;
+  height: 100;
+  mask-image: linear-gradient(to bottom,transparent 15%,green 75%);
+  -webkit-mask-image: linear-gradient(to bottom,transparent 15%,green 75%);
+
 }
-.sidebar{position: absolute;
-  left:0;
-width: 50%;}
